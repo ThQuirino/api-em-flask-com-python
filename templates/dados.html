@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Produtos</title>
+        <link rel="stylesheet" href="css/sttyles.css">
+    </head>
+    <body>
+        <h2>produtos</h2>
+        <form method="post" action="{{url_for('enviar_dados')}}" >
+            <div class="form">
+                <label>Nome:</label>
+                <input type="text" name="nome">
+                <label>email:</label>
+                <input type="email" name="email">
+                <label>cpf:</label>
+                <input type="text" name="cpf">
+                <label>data de nascimento:</label>
+                <input type="date" name="data">
+                <button>Enviar</button>
+            </div>
+           
+        </form>
+    </body>
+
+</html>
